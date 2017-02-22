@@ -63,13 +63,22 @@ public class MyMethod {
     }
 
 
-    public static void fucktorial( int n ) {
-        int fuck = n;
+    public static void factorial( int n ) {
+        int fact = n;
             n--;
         for( ; n > 0 ; n-- ) {
 
-            fuck *= n;
-            System.out.println(fuck);
+            fact *= n;
+            System.out.println(fact);
+        }
+    }
+
+    public static void evenIntegers( int n ) {
+        int [] cont = new int [n+1];
+        for( int eve = 0 ; n > 0 ; n-- ) {
+            eve += 2;
+            cont [n] = eve;
+            System.out.println( cont[n]);
         }
     }
 

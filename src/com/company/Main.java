@@ -131,10 +131,10 @@ public class Main {
         //MyMethod.whileConditions(10);
         //MyMethod.dowhileConditions(8);
         //MyMethod.forConditions(10);
-        MyMethod.forSumPos(6);
-        MyMethod.whileSumPos(6);
-        MyMethod.fucktorial(6);
-
+//        MyMethod.forSumPos(6);
+//        MyMethod.whileSumPos(6);
+//        MyMethod.factorial(6);
+        MyMethod.evenIntegers(6);
     }
 
 }
