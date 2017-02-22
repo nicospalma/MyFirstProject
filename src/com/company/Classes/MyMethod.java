@@ -17,15 +17,15 @@ public class MyMethod {
 
 
 
-    public static void dowhileConditions( int n )
-    {
-        int i = 1;
-        do{
-            System.out.print( "[" + i + "] \t");
-            i++;
-        }while( i <= n);
-        System.out.print("\n*********************************\n");
-    }
+//    public static void dowhileConditions( int n )
+//    {
+//        int i = 1;
+//        do{
+//            System.out.print( "[" + i + "] \t");
+//            i++;
+//        }while( i <= n);
+//        System.out.print("\n*********************************\n");
+//    }
 
 
     public static void forConditions( int n )
