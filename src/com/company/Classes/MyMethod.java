@@ -64,15 +64,15 @@ public class MyMethod {
 
 
     public static void fucktorial( int n ) {
-        int [] fuck = new int[n], cont = 0;
+        int fuck = n;
+            n--;
+        for( ; n > 0 ; n-- ) {
 
-
-        for ( int i = 1; i <= n; i++) {
-            fuck[i] = n*(n-1);
-
+            fuck *= n;
+            System.out.println(fuck);
         }
+    }
 
-        System.out.println();
+
 
     }
-}
